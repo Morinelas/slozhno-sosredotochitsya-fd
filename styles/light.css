@@ -9,8 +9,109 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --h1-color: rgb(255, 194, 230);
+  --bg-color: rgb(255, 209, 217);
+  --text-color: rgba(53, 52, 48, 1);
+  --accent-color: rgba(255, 141, 203, 1);
+  --accent-text-color: rgba(53, 52, 48, 1);
+  --bg-image: url("../images/cover-image-light.png");
+}
+
+.theme-light .decoration-element {
+  display: none;
+}
+
+.theme-light .decorated-zone::before {
+  border: 1px solid var(--text-color);
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.theme-light .decorated-zone::after {
+  border: 1px solid var(--text-color);
+  border-top: 0;
+  border-right: 0;
+}
+
+.theme-light .header__theme-menu-button {
+  color: var(--text-color);
+}
+
+.theme-light .header__theme-menu-button:hover {
+  border: 1px solid rgba(50, 49, 45, 0.4);
+}
+
+.theme-light .header__theme-menu-button:focus-visible {
+  border: none; 
+  border-bottom: 1px solid var(--text-color);
+}
+
+.theme-light .header__theme-menu-button:active {
+  border: 1px solid var(--text-color);
+}
+
+.theme-light .header__theme-menu-button_active {
+  border: 1px solid var(--text-color);
+}
+
+.theme-light h2 {
+  color: var(--text-color);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --h1-color: rgba(255, 194, 230, 1);
+    --bg-color: rgb(255, 209, 217);
+    --text-color: rgba(53, 52, 48, 1);
+    --accent-color: rgba(255, 141, 203, 1);
+    --accent-text-color: rgba(53, 52, 48, 1);
+    --bg-image: url(../images/cover-image-light.png);
+  }
+
+  .decoration-element {
+    display: none;
+  }
+
+  .decorated-zone::before {
+    border: 1px solid var(--text-color);
+    border-bottom: 0;
+    border-left: 0;
+  }
+
+  .decorated-zone::after {
+    border: 1px solid var(--text-color);
+    border-top: 0;
+    border-right: 0;
+  }
+
+  .header__theme-menu-button {
+    color: var(--text-color);
+  }
+
+  .header__theme-menu-button:hover {
+    border: 1px solid rgba(50, 49, 45, 0.4);
+  }
+
+  .header__theme-menu-button:focus-visible {
+    border: none; 
+    border-bottom: 1px solid var(--text-color);
+  }
+
+  .header__theme-menu-button:active {
+    border: 1px solid var(--text-color);
+  }
+
+  .header__theme-menu-button_active {
+    border: 1px solid var(--text-color);
+  }
+
+  h2 {
+    color: var(--text-color);
+  }
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
+
