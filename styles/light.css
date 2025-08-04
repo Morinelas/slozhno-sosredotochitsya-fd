@@ -43,7 +43,7 @@
 }
 
 .theme-light .header__theme-menu-button:focus-visible {
-  border: none; 
+  border: none;
   border-bottom: 1px solid var(--text-color);
 }
 
@@ -94,7 +94,7 @@
   }
 
   .header__theme-menu-button:focus-visible {
-    border: none; 
+    border: none;
     border-bottom: 1px solid var(--text-color);
   }
 
