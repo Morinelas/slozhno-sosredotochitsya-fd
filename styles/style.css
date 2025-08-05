@@ -108,7 +108,7 @@
 }
 
 .heading {
-  color: var(--h1-color);
+  color: var(--heading-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   line-height: 0.83;

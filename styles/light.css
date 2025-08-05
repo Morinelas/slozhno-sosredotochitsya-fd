@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  --h1-color: rgb(255, 194, 230);
+  --heading-color: rgb(255, 194, 230);
   --bg-color: rgb(255, 209, 217);
   --text-color: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
@@ -61,7 +61,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --h1-color: rgba(255, 194, 230, 1);
+    --heading-color: rgba(255, 194, 230, 1);
     --bg-color: rgb(255, 209, 217);
     --text-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
