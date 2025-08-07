@@ -58,6 +58,6 @@
   border: 1px solid var(--accent-color);
 }
 
-.theme-dark h2 {
+.theme-dark .title-accent-color {
   color: var(--accent-color);
 }

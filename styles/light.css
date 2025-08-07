@@ -55,7 +55,7 @@
   border: 1px solid var(--text-color);
 }
 
-.theme-light h2 {
+.theme-light .title-accent-color {
   color: var(--text-color);
 }
 
@@ -106,7 +106,7 @@
     border: 1px solid var(--text-color);
   }
 
-  h2 {
+  .title-accent-color {
     color: var(--text-color);
   }
 }
